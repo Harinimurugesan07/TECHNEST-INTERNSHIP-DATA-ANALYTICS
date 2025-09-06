@@ -2,9 +2,7 @@
 
 ## Project Overview
 This project analyzes **Indian Premier League (IPL) data** to extract insights about matches, teams, players, and overall trends.  
-It covers **data cleaning, exploration, visualization, and analysis** to understand IPL dynamics better.  
-
----
+It covers **data analysis,Create a Spark Session,** to understand IPL dynamics better.  
 
 ## Objectives
 - Perform **Exploratory Data Analysis (EDA)** on IPL datasets.  
