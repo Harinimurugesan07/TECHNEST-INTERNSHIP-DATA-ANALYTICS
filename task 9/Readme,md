@@ -1,1 +1,71 @@
+## 🏏 IPL Data Analysis
+
+## Project Overview
+This project analyzes **Indian Premier League (IPL) data** to extract insights about matches, teams, players, and overall trends.  
+It covers **data cleaning, exploration, visualization, and analysis** to understand IPL dynamics better.  
+
+---
+
+## Objectives
+- Perform **Exploratory Data Analysis (EDA)** on IPL datasets.  
+- Identify **patterns, trends, and key statistics** for teams and players.  
+- Visualize **match outcomes, player performances, and team statistics**.  
+- Provide actionable insights for **fantasy cricket or team strategies**.  
+
+---
+
+## Dataset
+- **Source:** Public IPL datasets  
+- **Files:**  
+  1. `matches.csv` – Match-level information (date, teams, venue, winner).  
+  2. `deliveries.csv` – Ball-by-ball data (batsman, bowler, runs, wickets, extras).  
+
+**Example Columns:**  
+- `matches.csv`: match_id, season, team1, team2, winner, toss_winner, venue  
+- `deliveries.csv`: match_id, inning, batting_team, bowling_team, over, ball, batsman, bowler, runs, extras, wicket  
+
+---
+
+## Tools & Technologies
+- **Programming Language:** Python  
+- **Libraries:** pandas, numpy, matplotlib, seaborn, plotly  
+- **IDE:** Jupyter Notebook / Google Colab  
+
+---
+
+## Data Analysis Steps
+1. **Load Data:** Load CSV files into pandas DataFrames.  
+2. **Data Cleaning:** Handle missing values, remove duplicates, correct inconsistencies.  
+3. **Exploratory Data Analysis (EDA):**  
+   - Total matches per season  
+   - Top-performing teams  
+   - Player performance (batsmen & bowlers)  
+   - Venue-wise performance analysis  
+4. **Data Visualization:**  
+   - Bar charts for team wins per season  
+   - Pie charts for top players  
+   - Heatmaps for venue analysis  
+5. **Insights & Conclusion:** Summarize key patterns and trends.  
+
+---
+
+## Key Insights (Examples)
+- Most successful IPL team over the years  
+- Top run-scorers and wicket-takers  
+- Impact of toss on match outcomes  
+- High-scoring venues and match trends  
+
+---
+
+## Future Work
+- Build **predictive models** to forecast match outcomes  
+- Track **player performance trends** over time  
+- Integrate **live IPL data** for real-time analysis  
+
+---
+
+## Author
+**Harini Murugesan**  
+- GitHub: [Harinimurugesan07](https://github.com/Harinimurugesan07)  
+- Role: Data Analytics Intern  
 
